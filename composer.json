@@ -1,6 +1,6 @@
 {
-    "name": "magento/project-enterprise-edition",
-    "description": "eCommerce Platform for Growth (Enterprise Edition)",
+    "name": "magento/project-community-edition",
+    "description": "eCommerce Platform for Growth (Community Edition)",
     "type": "project",
     "version": "2.2.0",
     "license": [
@@ -14,7 +14,10 @@
         }
     },
     "require": {
-        "magento/magento-cloud-metapackage": "2.2.0"
+        "magento/product-community-edition": "2.2.0",
+        "composer/composer": "@alpha",
+        "magento/ece-patches": "102.0.*",
+        "magento/ece-tools": "2002.0.*"
     },
     "config": {
         "use-include-path": true
